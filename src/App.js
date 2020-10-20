@@ -8,7 +8,6 @@ import Slider from './components/slider.js';
 import BeerSlider from 'beerslider';
 import Slick from 'react-slick';
 
-
 class App extends Component {
     state = {
         sliderCount: 14,
