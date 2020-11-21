@@ -1,31 +1,46 @@
 @media only screen and (max-width: 900px) {
-    .slider-container {
-        width: 70%;
-        height: auto;
-        font-size: 15px;
-    }
-    .slider-buttons button {
-        font-size: 20px;
-    }
     header {
-        height: 5vh;
+        height: 7vh;
     }
     header .nav-links {
-        height: 5vh;
+        height: 6vh;
     }
     header div.dropdown {
         margin: 0 10px;
-        background: pink;
         width: 50px;
+    }
+    header .dropdown-content {
+        top: 7vh;
     }
     header .nav-links button {
         font-size: 20px;
     }
     header .logo {
-        width: 40%;
+        width: 250px;
     }
     header a img {
         width: auto;
-        height: 4.8vh;
+        height: 6vh;
+    }
+    .slider-container {
+        width: 70vw;
+        height: auto;
+        font-size: 15px;
+    }
+    .slider {
+        width: 70vw; height: 70vw;
+    }
+    .slider-buttons button {
+        font-size: 1rem;
+    }
+    .container {
+        margin-top: 7vh;
+    }
+    .inner-container button img {
+        height: auto; width: 10vw;
+    }
+    .slider-picker-button {
+        width: 25vw; height: 25vw;
+        border: 2px solid black;
     }
 }
